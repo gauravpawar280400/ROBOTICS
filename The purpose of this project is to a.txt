@@ -1,0 +1,19 @@
+The purpose of this project is to acquire the remote electrical parameters like voltage, current 
+and frequency and send these real time values over network using IoT module along with 
+temperature and relative humidity at power station. This project is also designed to protect the 
+electrical circuitry by operating an SPDT relay. This relay gets activated whenever the 
+electrical parameters exceed or fall behind the predefined values. The relay can be used to 
+switch off the main electrical supply. User can send commands to the microcontroller to read 
+the remote electrical parameters. This system also can automatically send the real time 
+electrical parameters periodically (based on time settings). This system can be designed to send 
+alerts whenever the relay trips or whenever the voltage or current exceeds the predefined limits. 
+This project makes use of a microcontroller, in this prototype for demonstration purpose we 
+have used ESP-WROOM-32. The controller can efficiently communicate with the different 
+sensors being used. The controller is provided with some internal memory to hold the code. 
+This memory is used to dump some set of assembly instructions into the controller.
+
+
+ 
+
+ Description – The project is design to control the overvoltage, Overcurrent, over frequency under the given range and Temperature.
+By using hardware and software ARDINUNO (IDE).
